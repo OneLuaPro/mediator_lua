@@ -120,6 +120,7 @@ end
 
 local Mediator = setmetatable(
 {
+  _VERSION = "1.1.2",
   Channel = Channel,
   Subscriber = Subscriber
 },
